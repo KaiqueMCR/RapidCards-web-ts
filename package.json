@@ -2,6 +2,10 @@
   "name": "rapidcards-web-ts",
   "private": true,
   "version": "0.0.0",
+  "author": "Kaique Matheus",
+  "contributors": [
+    "Diogo Nogueira"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,8 +13,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",

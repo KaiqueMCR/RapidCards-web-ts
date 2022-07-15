@@ -1,12 +1,15 @@
 import React from 'react'
-import { Logo } from './components'
+import { Routes, Route } from 'react-router-dom'
+import { Home } from './pages'
+import { useFavicon } from './utils'
 
 function App () {
+  useFavicon()
+
   return (
-    <div>
-      <Logo width={50} height={50} />
-      <p className="text-2xl">Hello world</p>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+    </Routes>
   )
 }
 
